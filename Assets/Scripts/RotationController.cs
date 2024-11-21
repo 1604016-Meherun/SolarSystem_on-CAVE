@@ -11,7 +11,7 @@ public class RotationController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(Time.deltaTime);
+        // Debug.Log(Time.deltaTime);
         //code for rotating the planet
         PlanetObject.transform.Rotate(RotationVector * Time.deltaTime);
 
